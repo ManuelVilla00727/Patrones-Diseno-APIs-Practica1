@@ -1,0 +1,31 @@
+{
+    "plans": [
+        {
+            "id": "P-25T26064UA453325XMIXNMZI",
+            "version": 21,
+            "product_id": "1647236710",
+            "name": "DELETED",
+            "status": "ACTIVE",
+            "description": "Each shirt they send out to subscribers is designed with lots of attention to detail",
+            "usage_type": "LICENSED",
+            "billing_cycles": [
+                {
+                    "pricing_scheme": {
+                        "version": 20,
+             … "method": "GET",
+            "encType": "application/json"
+        },
+        {
+            "href": "https://api.sandbox.paypal.com/v1/billing/plans?page_size=10&page=2",
+            "rel": "next",
+            "method": "GET",
+            "encType": "application/json"
+        },
+        {
+            "href": "https://api.sandbox.paypal.com/v1/billing/plans?page_size=10&page=6553",
+            "rel": "last",
+            "method": "GET",
+            "encType": "application/json"
+        }
+    ]
+}
